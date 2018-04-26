@@ -13,7 +13,8 @@ else:
 	logleveltype = "ERROR"
 sc.setLogLevel(logleveltype)
 
-
+##################
+rdd2 = rdd.flatMap(lambda linea: re.compile("\W").split(linea)) .\
 ###################################
 #####		poner codigo aqui #####
 ###################################
