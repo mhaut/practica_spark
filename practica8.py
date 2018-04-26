@@ -14,5 +14,9 @@ else:
 sc.setLogLevel(logleveltype)
 
 
+###################################
+#####		poner codigo aqui #####
+###################################
+
 for act_dict in ACCION:
 	print act_dict[0] + ":", act_dict[1]
